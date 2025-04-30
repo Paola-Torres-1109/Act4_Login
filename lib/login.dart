@@ -34,14 +34,14 @@ class LoginScreen extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'Hello!',
+                        'Hola!',
                         style: TextStyle(
                           fontSize: 36,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
                       Text(
-                        'Welcome back.',
+                        'Bienvenido',
                         style: TextStyle(fontSize: 20),
                       ),
                     ],
@@ -91,7 +91,7 @@ class LoginScreen extends StatelessWidget {
                           obscureText: true,
                           decoration: const InputDecoration(
                             prefixIcon: Icon(Icons.lock_outline),
-                            hintText: 'Password',
+                            hintText: 'Contraseña',
                             border: OutlineInputBorder(
                               borderRadius:
                                   BorderRadius.all(Radius.circular(30)),
@@ -103,7 +103,7 @@ class LoginScreen extends StatelessWidget {
                           alignment: Alignment.centerRight,
                           child: TextButton(
                             onPressed: () {},
-                            child: const Text('Forgot Password'),
+                            child: const Text('Olvide contraseña'),
                           ),
                         ),
                         const SizedBox(height: 20),
@@ -125,7 +125,7 @@ class LoginScreen extends StatelessWidget {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            const Text("Don't have account? "),
+                            const Text("No tienes cuenta? "),
                             TextButton(
                               onPressed: () {},
                               child: const Text('Sign Up'),
